@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.encabezado {
+  background-color: rgb(176, 218, 157);
+  padding: 20px;
+  text-align: center;
+
+}
+
+.menu {
+    background-color:rgb(125, 119, 219);
+
+    padding: 15px;
+    text-size-adjust: 25px;
+    text-wrap-style: stable;
+    text-overflow: ellipsis;
+    scroll-timeline-axis: 20px;
+    display: flex;
+  text-align: left;
+  text-decoration: darkslategray;
+  font-size: 20px;
+}
+/* Estilo general para todas las páginas */
+.portada {
+  width: 100%;
+  height: 350px;
+  
+}
+
+/* Imagen de fondo para la página index */
+  
+   body.index {
+    background-image: url('imagenes/indexbg.png');  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+  } 
+
+/* Imagen de fondo para la página de procesadores */
+
+/* Imagen de fondo para la página de placasmadre */
+   body.placasmadre {
+  background-image: url('imagenes/motherbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+} */
+
+/* Imagen de fondo para la página de AMD */
+body.amd {
+  background-image: url('imagenes/amd.jpg');
+}
+
+/* Imagen de fondo para la página de Intel */
+body.intel {
+  background-image: url('imagenes/intel.jpg');
+}
+
+/* Imagen de fondo para la página de memoria RAM */
+body.memoria_ram {
+  background-image: url('imagenes/memoria_ram.jpg');
+}
+
+/* Imagen de fondo para la página de gabinetes */
+body.gabinetes {
+  background-image: url('imagenes/gabinetes.jpg');
+}
+
+/* Imagen de fondo para la página de fuentes de poder */
+body.fuentes_de_poder {
+  background-image: url('imagenes/fuentes_de_poder.jpg');
+}
+
