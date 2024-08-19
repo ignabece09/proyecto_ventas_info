@@ -8,6 +8,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 
 .encabezado {
@@ -31,6 +32,9 @@ body {
   text-align: left;
   text-decoration: darkslategray;
   font-size: 20px;
+  justify-content: center;
+  align-items: stretch;
+   
 }
 /* Estilo general para todas las páginas */
 .portada {
@@ -46,8 +50,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
-     
+   
   } 
    body.amd{
     background-image: url('imagenes/indexbg.png');  
