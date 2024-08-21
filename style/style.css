@@ -4,24 +4,28 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text
-  background-color: rgb(255, 255, 255);
+
+  background-color: rgb(87, 77, 104);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
   
 }
 
 .encabezado {
-  background-color: rgb(176, 218, 157);
-  padding: 20px;
+  background-color: rgb(198, 161, 91);
+  padding: 25px;
   text-align: center;
+  #list {text-align: left;}
+  
 
 }
 
 .menu {
-    background-color:rgb(125, 119, 219);
-
+    background-color:rgb(211, 223, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     padding: 15px;
     list-style-type: none;
     text-size-adjust: 25px;
@@ -30,11 +34,14 @@ body {
     text-overflow: ellipsis;
     scroll-timeline-axis: 20px;
     display: flex;
-  text-align: left;
+  text-align: justify;
   text-decoration: darkslategray;
   font-size: 20px;
   justify-content: center;
   align-items: stretch;
+
+
+  
    
 }
 /* Estilo general para todas las páginas */
@@ -47,70 +54,82 @@ body {
 /* Imagen de fondo para la página index */
   
    body.index{
-    background-image: url('imagenes/indexbg.png');  
+    width: 120px;
+    height: 120px;
+    padding-bottom: 100px;
+    border: solid 3px rgb(198, 161, 91);
+    margin-top: 100px;
+    box-sizing: border-box 100px; 
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-   
+    background-repeat: repeat;
+   background-attachment: scroll;
   } 
-   body.amd{
-    background-image: url('imagenes/indexbg.png');  
+   body.amd{  
+    background-color: rgb(87, 77, 104);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
      
   } 
   body.procesadores{
-    background-image: url('imagenes/indexbg.png');  
+    background-color: rgb(87, 77, 104);
+    width: 120px;
+    height: 120px;
+    padding-bottom: 100px;
+    border: solid 3px rgb(198, 161, 91);
+    margin-top: 100px;
+    box-sizing: border-box 100px; 
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-   
+    background-repeat: repeat;
+   background-attachment: scroll;
+   mask-image: url('/imagenes/indexbg.png');
   } 
    body.fuente{
-    background-image: url('imagenes/indexbg.png');  
+    background-color: rgb(87, 77, 104); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
    
   } 
    body.gabinete{
-    background-image: url('imagenes/indexbg.png');  
+    background-color: rgb(87, 77, 104);;  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
    
   } 
    body.intel{
-    background-image: url('imagenes/indexbg.png');  
+    background-color: rgb(87, 77, 104);  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
    
   } 
    body.memoriasRAM{
-    background-image: url('imagenes/indexbg.png');  
+    background-color: rgb(87, 77, 104);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
    
   } 
    body.nvidia{
-    background-image: url('imagenes/indexbg.png');  
+    background-color: rgb(87, 77, 104);  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
    
   } 
    body.placamadre{
-    background-image: url('imagenes/indexbg.png');  
+    background-color: rgb(87, 77, 104);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
    
   } 
    body.radeon{
-    background-image: url('imagenes/indexbg.png');  
+    background-color: rgb(87, 77, 104);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,9 +138,10 @@ body {
 
 /* Imagen de fondo para la página de procesadores */
 
+
 /* Imagen de fondo para la página de placasmadre */
    body.placasmadre {
-  background-image: url('imagenes/motherbg.jpg');
+  background-color: rgb(87, 77, 104);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,28 +150,49 @@ body {
 
 /* Imagen de fondo para la página de AMD */
 body.amd {
-  background-image: url('imagenes/amd.jpg');
+background-color: rgb(87, 77, 104);
 }
 
 /* Imagen de fondo para la página de Intel */
 body.intel {
-  background-image: url('imagenes/intel.jpg');
+ background-color: rgb(87, 77, 104);
 }
 
 /* Imagen de fondo para la página de memoria RAM */
 body.memoria_ram {
-  background-image: url('imagenes/memoria_ram.jpg');
+ background-color: rgb(87, 77, 104);
 }
 
 /* Imagen de fondo para la página de gabinetes */
 body.gabinetes {
-  background-image: url('imagenes/gabinetes.jpg');
+  background-color: rgb(87, 77, 104);
 }
 
 /* Imagen de fondo para la página de fuentes de poder */
 body.fuentes_de_poder {
-  background-image: url('imagenes/fuentes_de_poder.jpg');
+background-color: rgb(87, 77, 104);
 }
 
+.fuente {
+  width: 450px;
+  height: 300px;
+}
+
+.pro {
+  display: flex;
+  justify-content:space-around;
+
+}
+.amdintel
+{
+  display: justify;
+  padding: 25px;
+  font-size: 100px;
+  background-color: #d3dfb8;
+  display: flex;
+  justify-content:space-around;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 
 /* amd
