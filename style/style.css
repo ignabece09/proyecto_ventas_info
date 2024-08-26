@@ -5,7 +5,7 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-  background-color: rgb(87, 77, 104);
+  background-color: #e44542;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body {
 }
 
 .encabezado {
-  background-color: rgb(198, 161, 91);
+  background-color: #b0d7ff;
   padding: 25px;
   text-align: center;
   #list {text-align: left;}
@@ -23,7 +23,7 @@ body {
 }
 
 .menu {
-    background-color:rgb(211, 223, 184);
+    background-color:#FAB05C;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     padding: 15px;
@@ -174,8 +174,9 @@ background-color: rgb(87, 77, 104);
 }
 
 .fuente {
-  width: 450px;
-  height: 300px;
+  width: 380px;
+  height: 270px;
+  
 }
 
 .pro {
@@ -183,16 +184,54 @@ background-color: rgb(87, 77, 104);
   justify-content:space-around;
 
 }
-.amdintel
+.amd
 {
   display: justify;
   padding: 25px;
   font-size: 100px;
-  background-color: #d3dfb8;
+  background-color: #b0d7ff;
   display: flex;
   justify-content:space-around;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+.intel
+{
+  display: justify;
+  padding: 25px;
+  font-size: 100px;
+  background-color: #d8d5db;
+  display: flex;
+  justify-content:space-around;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-/* amd
+}
+.procesadores
+{
+width: 420px;
+height: 300px;
+margin-top: 25px;
+  flex: content;
+  
+}
+
+.contenedor_fuente {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+
+}
+ 
+.fuente_bloque {
+  margin-top: 25px;
+  flex: content;
+}
+.Lista {
+margin-top: 10px;
+-ms-flex-align: baseline;
+display: list-item; color: #adacb5;
+justify-items: center;
+flex: content;
+}
+ul#lista li {text-align: center;}
+
