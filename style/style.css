@@ -101,6 +101,46 @@ body {
 }
 .menu {
   background-color: #FAB05C;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  list-style-type: none;
+  text-size-adjust: 25px;
+  text-wrap-style: stable;
+  margin: right;
+  text-overflow: ellipsis;
+  scroll-timeline-axis: 20px;
+  display: flex;
+  text-align: justify;
+  text-decoration: darkslategray;
+  font-size: 20px;
+  justify-content: center;
+  align-items: stretch;
+  border: black solid 3px;
+  
+
+}
+.menu2 {
+  background-color: #21d188;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  list-style-type: none;
+  text-size-adjust: 25px;
+  text-wrap-style: stable;
+  margin: right;
+  text-overflow: ellipsis;
+  scroll-timeline-axis: 20px;
+  display: flex;
+  text-align: justify;
+  text-decoration: darkslategray;
+  font-size: 20px;
+  justify-content: center;
+  align-items: stretch;
+  border: black solid 3px;
+  }
+.servi {
+  background-color: #46a7a2;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   padding: 15px;
@@ -120,8 +160,8 @@ body {
   
 
 }
-.servi {
-  background-color: #46a7a2;
+.peri {
+  background-color: #ca5013;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   padding: 15px;
@@ -150,7 +190,39 @@ body {
   border-radius: 20px;
   margin-top: 20px;
 }
-
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify center;
+  justify-content: right;
+  justify-items: right;
+}
+.manteni {
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  background-color: #e7a4d5;
+  border: black solid 3px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 15px;
+  border-radius: 5px;
+}
+.manteni2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  background-color: #ad688c;
+  border: black solid 3px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 15px;
+  border-radius: 5px;
+  }
+  .manteni3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: #c03d85;
+    border: black solid 3px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 15px;
+    border-radius: 5px;
+    }
 .ram {
 width: 400px;
 height: 150px;
